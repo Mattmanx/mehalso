@@ -1,0 +1,21 @@
+/* 
+    Document   : custom
+    Created on : Mar 10, 2011, 8:57:59 PM
+    Author     : matt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#bg { position:fixed; top: 0; left: 0; }
+.bgwidth { width: 100% }
+.bgheight { height: 100% }
+
+
