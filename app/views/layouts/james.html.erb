@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <%= csrf_meta_tag %>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <[!endif]-->
+    <%= render 'layouts/james_stylesheets' %>
+    <%= render 'layouts/james_scripts' %>
+  </head>
+  <body>
+    <%= image_tag("james_bath_bg.JPG", :alt=> "James in his bath.", :id=>"bg") %>
+    <div class="content">
+      <%= yield %>
+    </div>
+    <%= render 'layouts/james_menu' %>
+  </body>
+</html>

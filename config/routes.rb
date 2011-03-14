@@ -1,4 +1,9 @@
 MehalsoCom::Application.routes.draw do
+  get "james/home"
+  get "james/story"
+  get "james/family"
+  get "james/photos"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
