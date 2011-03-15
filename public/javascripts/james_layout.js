@@ -36,5 +36,15 @@ $(function() {
         })
     })
 
+    //mouse hover events for nav bar.
+    $("ul#menulist li").hover(
+        function() {
+            $(this).addClass("roundboxhover");
+        },
+        function() {
+            $(this).removeClass("roundboxhover");
+        }
+    );
+
 });
 
