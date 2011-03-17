@@ -1,5 +1,5 @@
 module JamesHelper
-    def title
+  def title
     base_title = "Introducing James Sebastian Mehalso"
 
     if @title.nil?
@@ -7,5 +7,16 @@ module JamesHelper
     else
       "#{base_title} | #{@title}"
     end
+  end
+
+  def backgroundimage
+    base_background_image = "james_bath_bg.JPG"
+
+    if @backgroundImage.nil?
+      base_background_image
+    else
+      "#{@backgroundImage}"
+    end
+
   end
 end

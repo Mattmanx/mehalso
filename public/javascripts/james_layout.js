@@ -28,12 +28,13 @@ $(function() {
     }).trigger("resize");
 
     //perform the fade-in of onscreen elements
-    $bg.fadeIn('fast', function() {
+    $bg.fadeIn(1000, function() {
         $("#menubox").fadeTo(1000, 0.50, function() {
             $(".menu").fadeTo(1000, 1.0, function() {
-                $(".content").fadeTo(1.0);
-            })
-        })
+                $(".content").fadeTo(1000, 1.0);
+            });
+        });
+        $("#banner").fadeTo(1000, 0.50);
     })
 
     //mouse hover events for nav bar.

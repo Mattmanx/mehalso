@@ -32,7 +32,6 @@ div#menubox {
     margin:0px;
     padding:0;
     border: 0;
-    overflow:hidden;
     width: 100%;
     height: 30px;
     background-color:#FFEBC1;
@@ -40,6 +39,19 @@ div#menubox {
     position: fixed;
     left: 0px;
     bottom: 60px;
+}
+
+div#banner {
+    position: fixed;
+    z-index: 0;
+    bottom: 90px;
+    height: 120px;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0px;
+    background-color: #E0E0E0;
+    left: 0px;
 }
 
 /* nav needs to go hand-in-hand w/ div#menubox */
@@ -57,24 +69,32 @@ nav {
     display: none;
 }
 
-ul#menulist {
+ul.horiz {
     list-style-type:none;
     margin:0;
-    padding:0;
+    padding:0px;
     overflow:hidden;
+}
+
+ul#menulist {
     height: 28px;
 }
 
-ul#menulist li {
+li.horiz {
     float: right;
 }
 
-ul#menulist li span {
+div#bannertxt {
+    position: fixed;
+    bottom: 90px;
+    height: 120px;
+    z-index: 1;
+    left: 50px;
     vertical-align: middle;
 }
 
 ul#menulist li a {
-    font-family: Purisa, "Segoe Script", sans-serif;
+    font-family: Purisa, "Segoe Script", "Comic Sans MS", "Brush Script MT", cursive;
     font-size: 1em;
     font-style: normal;
     font-weight: bold;
@@ -90,8 +110,8 @@ a:hover {color:#000000; text-decoration: underline}  /* mouse over link */
 a:active {color:#000000; text-decoration: underline}  /* selected link */
 
 .roundboxhover {
-  -moz-border-radius:    8px;
-  -webkit-border-radius: 8px;
-  border-radius:         8px;
-  background-color: #CCCCCC;
+  -moz-border-radius:    7px;
+  -webkit-border-radius: 7px;
+  border-radius:         7px;
+  background-color: #FFDA8C;
 }
