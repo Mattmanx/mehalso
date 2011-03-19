@@ -1,24 +1,24 @@
 class JamesController < ApplicationController
   layout "james"
-  
+
   def home
     @title = "Home"
-    @backgroundImage = "james_bath_bg.JPG"
+    @backgroundImage = "james/bg/james_bath.jpg"
   end
 
   def story
     @title = "My Story"
-    @backgroundImage = "james_crib.JPG"
+    @backgroundImage = "james/bg/james_face.JPG"
   end
 
   def family
     @title = "My Family"
-    @backgroundImage = "james_mom.JPG"
+    @backgroundImage = "james/bg/james_hand.JPG"
   end
 
   def photos
     @title = "My Photos"
-    @backgroundImage = "james_pacifier.JPG"
+    @backgroundImage = "james/bg/james_sleep.jpg"
   end
 
 end

@@ -98,7 +98,6 @@ ul#menulist li a {
     font-size: 1em;
     font-style: normal;
     font-weight: bold;
-    opacity: 1.0;
     display: block;
     width: 8em;
     text-align: center;
@@ -115,3 +114,37 @@ a:active {color:#000000; text-decoration: underline}  /* selected link */
   border-radius:         7px;
   background-color: #FFDA8C;
 }
+
+div#articlebox_bg {
+  -moz-border-radius:    12px;
+  -webkit-border-radius: 12px;
+  border-radius:         12px;
+  background-color:#E0E0E0;
+  opacity: 0.6;
+}
+
+div.centerarticle {
+    position: fixed;
+    bottom: 120px;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+}
+
+.articletext {font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+
+div.articletext {
+    overflow: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 8px;
+}
+
+.articletext h1, .articletext h2 {
+    font-family: Purisa, "Segoe Script", "Comic Sans MS", "Brush Script MT", cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
+h1 {font-size:3em;line-height:1;margin-bottom:0.5em; font-weight: bold;}
+h2 {font-size:2em;margin-bottom:0.75em;}

@@ -10,7 +10,7 @@ module JamesHelper
   end
 
   def backgroundimage
-    base_background_image = "james_bath_bg.JPG"
+    base_background_image = "james/bg/james_bath.JPG"
 
     if @backgroundImage.nil?
       base_background_image

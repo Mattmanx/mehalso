@@ -40,10 +40,12 @@ $(function() {
     //mouse hover events for nav bar.
     $("ul#menulist li").hover(
         function() {
-            $(this).addClass("roundboxhover");
+            //$(this).addClass("roundboxhover");
+            $("#menubox").fadeTo(200, 0.75);
         },
         function() {
-            $(this).removeClass("roundboxhover");
+            //$(this).removeClass("roundboxhover");
+            $("#menubox").fadeTo(200, 0.50);
         }
     );
 
