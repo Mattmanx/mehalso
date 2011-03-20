@@ -1,4 +1,6 @@
 MehalsoCom::Application.routes.draw do
+  resources :photos
+
   get "james/home"
   get "james/story"
   get "james/family"

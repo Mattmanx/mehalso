@@ -121,6 +121,7 @@ div#articlebox_bg {
   border-radius:         12px;
   background-color:#E0E0E0;
   opacity: 0.6;
+  filter:alpha(opacity=60);
 }
 
 div.centerarticle {
@@ -141,7 +142,7 @@ div.articletext {
     margin-right: 8px;
 }
 
-.articletext h1, .articletext h2 {
+.articletext h1, .articletext h2, .articletext h3 {
     font-family: Purisa, "Segoe Script", "Comic Sans MS", "Brush Script MT", cursive;
 }
 
