@@ -49,5 +49,20 @@ $(function() {
         }
     );
 
+    //mouse hover events for thumbnail links.
+    $("img.thumbnail").hover(
+        function() {
+            $(this).addClass("thumbhover");
+            $(this).fadeTo("slow", .75);
+        },
+        function() {
+            $(this).removeClass("thumbhover");
+            $(this).fadeTo("slow", 1.0);
+        }
+    );
+
+    $("li.thumbnail a").lightBox();
+
+
 });
 

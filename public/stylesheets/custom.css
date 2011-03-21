@@ -149,3 +149,28 @@ div.articletext {
 h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
 h1 {font-size:3em;line-height:1;margin-bottom:0.5em; font-weight: bold;}
 h2 {font-size:2em;margin-bottom:0.75em;}
+
+.front {
+    z-index: 3;
+}
+
+li.thumbnail{
+    float: left;
+}
+img.thumbnail
+{
+    border-color: #000000;
+    border-width: 2px;
+    margin:5px;
+}
+
+img.thumbhover
+{
+    border-color:#5e0202;
+    border-width: 2px;
+}
+
+ul#gallery
+{
+    list-style-type:none;
+}

@@ -17,6 +17,9 @@ module JamesHelper
     else
       "#{@backgroundImage}"
     end
+  end
 
+  def includegallery?
+    @photos.nil?
   end
 end

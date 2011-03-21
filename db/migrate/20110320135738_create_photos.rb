@@ -8,6 +8,8 @@ class CreatePhotos < ActiveRecord::Migration
 
       t.timestamps
     end
+
+    ## todo - load up initial round of photos. 
   end
 
   def self.down

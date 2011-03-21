@@ -1,2 +1,7 @@
-<h1>James#photos</h1>
-<p>Find me in app/views/james/photos.html.erb</p>
+<div class="centerarticle" id="articlebox_bg"></div>
+<div class ="content centerarticle articletext">
+  <h1>My Photos</h1>
+  <ul id="gallery">
+    <%= render :partial=>"layouts/photo", :collection=>@photos %>
+  </ul>
+</div>
