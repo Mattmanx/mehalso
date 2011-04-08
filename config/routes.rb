@@ -6,6 +6,8 @@ MehalsoCom::Application.routes.draw do
   get "james/family"
   get "james/photos"
 
+  match 'james', :to => 'james#home'
+
   root :to => 'james#home'
 
   # The priority is based upon order of creation:
