@@ -19,7 +19,7 @@ class JamesController < ApplicationController
   def photos
     @title = "My Photos"
     @backgroundImage = "james/bg/james_sleep.jpg"
-    @photos = Photo.all
+    @photos = JPhoto.all
   end
 
 end
